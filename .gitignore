@@ -1,0 +1,14 @@
+# Mac
+.DS_Store
+
+# Editors
+.vscode
+.idea
+
+node_modules
+src/routes/uploads/
+
+npm-debug.log
+
+# python
+__pycache__/
