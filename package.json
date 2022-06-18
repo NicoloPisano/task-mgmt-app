@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NicoloPisano/task-mgmt-app/issues"
   },
-  "homepage": "https://github.com/NicoloPisano/task-mgmt-app#readme"
+  "homepage": "https://github.com/NicoloPisano/task-mgmt-app#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
