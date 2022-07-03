@@ -1,11 +1,16 @@
 const mongoose = require('../config/mongoose');
 
-const TaskTemplate = mongoose.model('TaskTemplate', {
+const taskTemplate = mongoose.model('TaskTemplate', {
+    id: {
+        type: String,
+        required: true
+    },
     name: {
-        type: String
+        type: String,
+        required: true
     },
     description: {
-        type: Number
+        type: String
     },
     subTasks:{
         type: Array
@@ -30,4 +35,4 @@ const TaskTemplate = mongoose.model('TaskTemplate', {
     }
 })
 
-module.exports = TaskTemplate;
+module.exports = taskTemplate;

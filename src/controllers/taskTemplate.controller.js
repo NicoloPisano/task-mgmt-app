@@ -1,8 +1,8 @@
 const TaskTemplate = require('../models/taskTemplate');
+
 const template = new TaskTemplate({
-    name: 'Write query mongoose',
-    description: 'test',
-    defaultDuration: 60
+    id: 1,
+    name: 'Write query mongoose'
 })
 
 template.save().then(() => {
